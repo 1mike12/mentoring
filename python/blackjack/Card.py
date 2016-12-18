@@ -4,14 +4,6 @@ class Card(object):
 
     # rank 1-13
 
-    String suite;
-    int rank;
-    public Card(String suite, int rank ){
-        this.suite = suite;
-        this.rank = rank;
-    }
-
-
     def __init__(self, suite, rank):
         self.suite = suite
         self.rank = rank
